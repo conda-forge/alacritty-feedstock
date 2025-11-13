@@ -9,7 +9,7 @@ Package license: Apache-2.0 OR MIT
 
 Summary: A cross-platform, OpenGL terminal emulator.
 
-Development: https://github.com/raphamorim/alacritty
+Development: https://github.com/alacritty/alacritty
 
 Documentation: https://alacritty.org/
 

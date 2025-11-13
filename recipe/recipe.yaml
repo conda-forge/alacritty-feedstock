@@ -33,7 +33,7 @@ tests:
 
 about:
   homepage: https://alacritty.org/
-  repository: https://github.com/raphamorim/alacritty
+  repository: https://github.com/alacritty/alacritty
   documentation: https://alacritty.org/
   license: Apache-2.0 OR MIT
   license_file:
