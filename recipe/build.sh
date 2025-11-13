@@ -2,6 +2,8 @@
 
 set -ex
 
+export PKG_CONFIG=$BUILD_PREFIX/bin/pkg-config
+
 export CARGO_PROFILE_RELEASE_STRIP=symbols
 export CARGO_PROFILE_RELEASE_LTO=fat
 
