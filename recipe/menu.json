@@ -7,15 +7,24 @@
       "description": "A cross-platform, OpenGL terminal emulator.",
       "icon": "{{ MENU_DIR }}/alacritty.{{ ICON_EXT }}",
       "command": [
-        "{{ BIN_DIR }}/alacritty"
+        ""
       ],
       "platforms": {
         "osx": {
+          "command": [
+            "{{ MENU_ITEM_LOCATION }}/Contents/MacOS/alacritty-cli"
+          ],
+          "link_in_bundle": {
+            "{{ BIN_DIR }}/alacritty": "{{ MENU_ITEM_LOCATION }}/Contents/MacOS/alacritty-cli"
+          },
           "CFBundleIdentifier": "org.alacritty-__PKG_MAJOR_VER__",
           "CFBundleVersion": "__PKG_VERSION__",
           "NSSupportsAutomaticGraphicsSwitching": true
         },
         "linux": {
+          "command": [
+            "{{ BIN_DIR }}/alacritty"
+          ],
           "Categories": [
             "TerminalEmulator",
             "System"
@@ -25,6 +34,9 @@
           "StartupWMClass": "Alacritty"
         },
         "win": {
+          "command": [
+            "{{ BIN_DIR }}/alacritty"
+          ],
           "desktop": true
         }
       }
