@@ -5,7 +5,7 @@
 
 [workspace]
 name = "alacritty-feedstock"
-version = "3.53.0"  # conda-smithy version used to generate this file
+version = "3.53.3"  # conda-smithy version used to generate this file
 description = "Pixi configuration for conda-forge/alacritty-feedstock"
 authors = ["@conda-forge/alacritty"]
 channels = ["conda-forge"]
