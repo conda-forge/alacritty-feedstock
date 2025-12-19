@@ -17,7 +17,7 @@
           "link_in_bundle": {
             "{{ BIN_DIR }}/alacritty": "{{ MENU_ITEM_LOCATION }}/Contents/MacOS/alacritty-cli"
           },
-          "CFBundleIdentifier": "org.alacritty-__PKG_MAJOR_VER__",
+          "CFBundleIdentifier": "org.alacritty",
           "CFBundleVersion": "__PKG_VERSION__",
           "NSSupportsAutomaticGraphicsSwitching": true,
           "info_plist_extra": {
