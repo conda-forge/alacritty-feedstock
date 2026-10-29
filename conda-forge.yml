@@ -14,3 +14,5 @@ azure:
 test: native_and_emulated
 bot:
   automerge: true
+provider:
+  win_arm64: default
